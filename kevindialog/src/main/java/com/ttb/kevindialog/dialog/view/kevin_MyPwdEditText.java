@@ -36,6 +36,7 @@ public class kevin_MyPwdEditText extends RelativeLayout {
 		see = (ImageView) view.findViewById(R.id.pwd_see);
 		see.setOnClickListener(new OnClickListener() {
 			String tmp;
+			//dddd
 			@Override
 			public void onClick(View view) {
 				int type = pwd_et.getInputType();

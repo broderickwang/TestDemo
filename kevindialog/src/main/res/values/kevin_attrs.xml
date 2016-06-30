@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingItemView">
+        <attr name="kevin_title" format="string"/>
+        <attr name="kevin_desc_on" format="string"/>
+        <attr name="kevin_desc_off" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="kevin_EditClean">
+        <attr name="kevin_cleanIconDrawable" format="reference"/>
+        <attr name="kevin_hint" format="reference|string"/>
+        <attr name="kevin_text" format="reference|string"/>
+        <attr name="kevin_textSize" format="reference|dimension"/>
+        <attr name="kevin_textColor" format="reference|color"/>
+        <attr name="kevin_maxLength" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="kevin_MyPwdEditText">
+        <attr name="viewIconDrawable" format="reference"/>
+        <attr name="kevin_text_pwd" format="reference|string"/>
+        <attr name="kevin_tsize_pwd" format="reference|dimension"/>
+    </declare-styleable>
+</resources>
